@@ -24,7 +24,7 @@ hugoblox:
     description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "LoreLabs_"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -83,21 +83,21 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: navbar                       # navbar | navbar-simple | minimal
+    style: floating-theme-toggler                       # navbar | navbar-simple | minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
     align: center                       # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
-    theme_picker: false
+    theme_picker: true
     language_switcher: true
     # Call-to-action button
     cta:
-      enable: false
-      text: ""
-      url: ""
+      enable: true
+      text: "Download Résumé"
+      url: "uploads/resume.pdf"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
